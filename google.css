@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&family=Tiro+Gurmukhi&display=swap');
+
+*{
+    margin : 0; 
+    padding  : 0; 
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tiro Gurmukhi', serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width : 100%;
+    height: 2000 px;
+     
+}
+
+
+/*header of the page*/
+body header {
+    height: 30px ;
+    width: 100%;
+}
+header .topright {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: right;
+    padding: 5px;
+    margin: 1px;
+}
+header .topright .element{
+    margin: 2px;
+    padding: 2px;
+    color: white;
+    font-size: 14px;
+}
+header .topright .apps {
+    border-radius: 50%;
+
+}
+header .topright .apps :hover {
+    background-color: white;
+    opacity: 10%;
+    
+}
+
+header .topright .element :hover{
+    /*considers icons only*/
+    text-decoration-line: underline;
+}
+
+ /*body of the page*/
+ body .pagebody {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end;
+    align-items: center;
+ }
