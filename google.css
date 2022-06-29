@@ -26,7 +26,7 @@ header {
     width: 100%;
 }
 
-.topright {
+.navbar {
     display: flex;
     flex-direction: row; 
     align-items: center;
@@ -34,6 +34,7 @@ header {
     padding: 5px;
     margin: 1px;
 }
+
 .element{
     margin: 2px;
     padding: 2px;
