@@ -26,37 +26,38 @@ header {
     width: 100%;
 }
 
-header .topright {
+.topright {
     display: flex;
     flex-direction: row; 
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     padding: 5px;
     margin: 1px;
 }
-header .topright .element{
+.element{
     margin: 2px;
     padding: 2px;
     color: white;
     font-size: 14px;
 }
-header .topright .apps {
+.apps {
     border-radius: 50%;
 
 }
-header .topright .apps :hover {
+
+.apps :hover {
     background-color: white;
     opacity: 10%;
     
 }
 
-header .topright .element :hover{
+.element :hover{
     /*considers icons only*/
     text-decoration-line: underline;
 }
 
  /*body of the page*/
- body .pagebody {
+ .pagebody {
     display: flex; 
     flex-direction: column; 
     justify-content: flex-end;
