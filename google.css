@@ -26,8 +26,7 @@ header {
     width: 100%;
 }
 
-.navbar {
-    width: 100vw;
+.topright {
     display: flex;
     flex-direction: row; 
     align-items: center;
@@ -35,26 +34,12 @@ header {
     padding: 5px;
     margin: 1px;
 }
-
 .element{
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
     color: white;
     font-size: 14px;
 }
-
-.Googlelogo {
-    
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    padding: 20px;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    margin: 10px;
-}
-
-
 .apps {
     border-radius: 50%;
 
