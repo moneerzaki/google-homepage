@@ -35,25 +35,27 @@ header {
     margin: 1px;
 }
 .element{
-    margin: 2px;
+    margin: 8px;
     padding: 2px;
     color: white;
     font-size: 14px;
 }
-.apps {
+.element.text:hover{
+    
+    text-decoration-line: underline;
+}
+
+.element.symbol {
     border-radius: 50%;
 
 }
-.apps :hover {
+.element.symbol:hover {
     background-color: white;
-    opacity: 10%;
+    opacity: 20%;
     
 }
 
-.element :hover{
-    /*considers icons only*/
-    text-decoration-line: underline;
-}
+
 
  /*body of the page*/
 .pagebody {
@@ -61,4 +63,9 @@ header {
     flex-direction: column; 
     justify-content: flex-end;
     align-items: center;
+    padding-top: 150px;
+ }
+
+ .searchbox{
+    margin-top: 30px;
  }
