@@ -38,7 +38,17 @@ header {
     margin: 8px;
     padding: 2px;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.element:hover{
+    cursor: pointer;
+}
+.element.text{
+    color:white;
+    font-size: 13px;
 }
 .element.text:hover{
     
@@ -47,11 +57,12 @@ header {
 
 .element.symbol {
     border-radius: 50%;
+    padding: 5px; 
 
 }
 .element.symbol:hover {
-    background-color: white;
-    opacity: 20%;
+    background-color: rgb(56, 56, 56);
+    /* opacity: 20%; */
     
 }
 
@@ -112,17 +123,15 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 
-
-
 }
 
 .recently-web{
-    padding: 2px; 
-    margin: 2px; 
+    padding: 10px; 
+    margin: 0px; 
     border-radius: 3%;
     background-color: inherit;
-    width: 90px;
-    height: 90px; 
+    width: 95px;
+    height: 95px; 
     display: flex;
     flex-direction: column; 
     justify-content: end;
@@ -147,7 +156,8 @@ header {
     margin-bottom: 13px;
 }
 .text{
-    font-size: 12px; 
+    font-size: 10px; 
     color: rgb(151, 151, 151);
     word-spacing: 5px;
+    /* margin-bottom: 2px; */
 }
