@@ -161,3 +161,14 @@ header {
     word-spacing: 5px;
     /* margin-bottom: 2px; */
 }
+
+.customize-button{
+    width: 30px;
+    font-size: 12px;
+    height: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    color: blue;
+}
