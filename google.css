@@ -163,12 +163,41 @@ header {
 }
 
 .customize-button{
-    width: 30px;
+    /* position: absolute; */
+    
+    /* margin-bottom: 50px;  */
+    background-color: white;
+    width: 160px;
     font-size: 12px;
     height: 10px;
+    padding: 15px;  
     display: flex;
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    color: blue;
+    color: rgb(113, 113, 255);
+    border-radius: 5%;
+    position: absolute;
+    top: 580px;
+    right: 30px; 
+    /* position: sticky; */
+    
+}
+.customize-button:hover{
+    cursor: pointer;
+}
+
+.customize-image{
+    /* font-size: 100px;
+    size: 100px; 
+    size-adjust: 100px;
+    font-size-adjust: 100px;
+    block-size: 100px; */
+    /* margin: 5px;  */
+    margin-bottom: 0px;
+}
+
+.customize-text{
+    font-size: 11px;
+    /* letter-spacing: 2px; */
 }
