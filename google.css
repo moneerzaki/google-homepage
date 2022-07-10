@@ -80,7 +80,8 @@ header {
  .searchbox{
     margin-top: 30px;
     height: 44px;
-    width: 500px;
+    width: 50%;
+    max-width: 500px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -117,7 +118,8 @@ header {
 
 .recentlyopenedwebs{
     margin-top: 20px;
-    width: 500px;
+    width: 50%;
+    max-width: 500px;
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
