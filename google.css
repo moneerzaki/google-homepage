@@ -195,6 +195,9 @@ header {
     block-size: 100px; */
     /* margin: 5px;  */
     margin-bottom: 0px;
+    /* height: 10px */
+    /* font-size: 2em; */
+    fa-1x:1em;
 }
 
 .customize-text{
